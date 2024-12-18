@@ -5,14 +5,15 @@ import Link from 'next/link'
 import { RiMenu3Line } from 'react-icons/ri';
 import { dataHeader } from './header.data';
 import { useState } from 'react';
+import { MotionTransition } from '../MotionTransition/MotionTransition';
 export function Header() {
 
     const [OpenMobileMenu, setOpenMobileMenu] = useState(false);
 
     return (
-        <header>
+        <MotionTransition>
 
-            <nav className='flex flex-wrap items-center justify-between max-w-5xl p-8 mx-auto'>
+            <nav className='flex flex-wrap items-center justify-between max-w-5xl py-8 px-4 mx-auto lg:px-0'>
                 <Link href="/">
                     <Image src="/assets/logo.png" alt='Logo BryantDev' width={150} height={40} />
                 </Link>
@@ -22,14 +23,14 @@ export function Header() {
                     <div className='flex flex-col mt-4 p-4 md:flex-row md:space-x-6 md:p-0 md:mt-0 md: border-0'>
                         {dataHeader.map(({ id, name, idLink }) => (
                             <div key={id} className='px-2 trasition-all duration-500 ease-in-out'>
-                                <Link href={idLink} className='text-lg hover:text-secondary'>{name}</Link>
+                                <Link href={idLink} className='text-lg hover:text-primary'>{name}</Link>
                             </div>
                         ))}
                     </div>
                 </div>
             </nav>
 
-        </header>
+        </MotionTransition>
     )
 }
 
