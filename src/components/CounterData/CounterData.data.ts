@@ -4,7 +4,7 @@ export const dataCounter = [
         id: 1,
         startNumber: 500,
         endNumber: 3000,
-        text: 'Clientes Satisfechos'
+        text: 'Clientes satisfechos'
     },
     {
         id: 2,

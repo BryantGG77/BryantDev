@@ -9,10 +9,10 @@ export default function AboutUs() {
         <section className="relative p-4 md: py-20">
             <BackgroundRadialRight />
             <section className="grid max-w-5xl mx-auto md:grid-cols-2" id="about">
-                <div>
+                <section>
 
                     <Reveal>
-                        <h1 className="text-5xl font-semibold">El mejor <span className="text-6xl block text-primary">
+                        <h1 className="text-5xl font-semibold">El mejor <span className="text-6xl block degradedBlue bg-blueLight">
                             desarrollador
                         </span>
                             del mercado</h1>
@@ -24,12 +24,12 @@ export default function AboutUs() {
 
                     <Reveal>
                         <div className="my-8">
-                            <Link href="#contact" className="px-4 py-3 rounded-md bg-blueRadial">
+                            <Link href="#contact" className="px-4 py-3 rounded-md bg-blueRadial hover:text-black hover:bg-blueLight">
                                 Empieza ahora
                             </Link>
                         </div>
                     </Reveal>
-                </div>
+                </section>
                 <MotionTransition className="flex items-center justify-center">
                     <Image className="rounded-b-lg h-auto w-72 md:w-full " src="/assets/about.png" width={450} height={450} alt="Junta Directiva" />
                 </MotionTransition>
