@@ -10,7 +10,7 @@ export function Services() {
     return (
         <section className="relative px-6 py-20 md:py-64">
             <BackgroundRadialLeft />
-            <section className="grid max-w-5xl mx-auto md:grid-cols-2">
+            <section className="grid max-w-5xl mx-auto md:grid-cols-2" id="services">
                 <div>
                     <Reveal>
                         <h2 className="text-5xl font-semibold">
