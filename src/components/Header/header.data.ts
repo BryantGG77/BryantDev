@@ -26,11 +26,6 @@ export const dataHeader = [
     },
     {
         id: 6,
-        name: 'Blog',
-        idLink: '#blog'
-    },
-    {
-        id: 7,
         name: 'FAQ',
         idLink: '#faq'
     }

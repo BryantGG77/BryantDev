@@ -8,9 +8,9 @@ import { Reveal } from "../Reveal"
 
 export default function AboutUs() {
     return (
-        <div className="relative p-4 md:py-40">
+        <div className="relative p-4 md:py-40" id="about">
             <BackgroundRadialRight />
-            <section className="grid max-w-5xl mx-auto md:grid-cols-2" id="about">
+            <section className="grid max-w-5xl mx-auto md:grid-cols-2">
                 <section className="max-sm:flex max-sm: flex-col max-sm: justify-center max-sm: items-center max-sm:text-center">
 
                     <Reveal>
