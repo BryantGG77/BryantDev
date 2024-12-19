@@ -18,9 +18,9 @@ export function Contact() {
 
                 <section className="max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:text-center max-md:order-first">
                     <Reveal>
-                        <h2 className="break-all-sm text-6xl font-semibold py-3">
+                        <h2 className="break-all-sm text-5xl font-semibold py-3">
                             ¡Contacta y camina hacia el
-                            <span className="block degradedBlue bg-blueLight lg:text-7xl">
+                            <span className="block degradedBlue bg-blueLight lg:text-6xl">
                                 exito!
                             </span>
                         </h2>

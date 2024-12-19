@@ -9,7 +9,7 @@ export const dataFeaturesServices: ServicesData = [
     },
     {
         id: 2,
-        title: 'Diseño a su gusto',
+        title: 'Diseño a tu gusto',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum, consectetur adipisicing elit. Quisquam, voluptatum.',
         icon: 'safe'
     },
