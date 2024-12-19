@@ -11,15 +11,15 @@ export function Services() {
         <section className="relative px-6 py-20 md:py-64">
             <BackgroundRadialLeft />
             <section className="grid max-w-5xl mx-auto md:grid-cols-2" id="services">
-                <div>
+                <section className="max-sm:flex max-sm: flex-col max-sm: justify-center max-sm: items-center max-sm:text-center">
                     <Reveal>
-                        <h2 className=" text-5xl font-semibold">
+                        <h2 className=" text-5xl font-semibold py-3">
                             <span className="block degradedBlue bg-blueLight">
                                 Tu te encargas del negocio
                             </span>
                             y yo de
                             <br />
-                            <span className="break-all">
+                            <span className="break-all-sm">
 
                                 la tecnología
                             </span>
@@ -39,7 +39,7 @@ export function Services() {
                             </Link>
                         </div>
                     </Reveal>
-                </div>
+                </section>
 
                 <div className="grid items-center py-5 md:p-8">
                     {dataFeaturesServices.map(({ id, title, description, icon }) => (

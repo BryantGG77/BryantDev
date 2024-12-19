@@ -11,12 +11,12 @@ export default function AboutUs() {
         <div className="relative p-4 md:py-40">
             <BackgroundRadialRight />
             <section className="grid max-w-5xl mx-auto md:grid-cols-2" id="about">
-                <section>
+                <section className="max-sm:flex max-sm: flex-col max-sm: justify-center max-sm: items-center max-sm:text-center">
 
                     <Reveal>
                         <h1 className="text-5xl font-semibold">
                             El mejor
-                            <span className="block break-all degradedBlue bg-blueLight md:text-6xl">
+                            <span className="block break-all-sm degradedBlue bg-blueLight lg:text-7xl">
                                 desarrollador
                             </span>
                             del pais

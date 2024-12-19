@@ -44,3 +44,9 @@ body {
     transform: translate(-100%);
   }
 }
+
+@media (max-width: 640px) {
+  .break-all-sm {
+    word-break: break-all;
+  }
+}
