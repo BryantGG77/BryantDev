@@ -3,6 +3,7 @@ import { Header } from "../components/Header/header";
 import { CounterData } from "@/components/CounterData";
 import { Services } from "@/components/Services";
 import { Contact } from "@/components/Contact";
+import { Testimonials } from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <CounterData />
       <Services />
       <Contact />
+      <Testimonials />
     </>
 
 
