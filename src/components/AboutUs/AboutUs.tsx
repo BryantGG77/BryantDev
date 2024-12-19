@@ -8,7 +8,7 @@ import { Reveal } from "../Reveal"
 
 export default function AboutUs() {
     return (
-        <div className="relative p-4 md:py-64" id="about">
+        <section className="relative p-4 md:py-64" id="about">
             <BackgroundRadialRight />
             <section className="grid max-w-5xl mx-auto md:grid-cols-2">
                 <section className="max-sm:flex max-sm: flex-col max-sm: justify-center max-sm: items-center max-sm:text-center">
@@ -39,6 +39,6 @@ export default function AboutUs() {
                     <Image className="rounded-b-lg h-auto w-72 md:w-full object-contain" src="/assets/about.png" width={450} height={450} alt="Junta Directiva" />
                 </MotionTransition>
             </section>
-        </div>
+        </section>
     )
 }
