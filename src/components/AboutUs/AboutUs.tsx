@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image"
 import { BackgroundRadialRight } from "../BackgroundRadialRight"
 import Link from "next/link"
@@ -6,16 +8,19 @@ import { Reveal } from "../Reveal"
 
 export default function AboutUs() {
     return (
-        <section className="relative p-4 md: py-20">
+        <div className="relative p-4 md:py-40">
             <BackgroundRadialRight />
             <section className="grid max-w-5xl mx-auto md:grid-cols-2" id="about">
                 <section>
 
                     <Reveal>
-                        <h1 className="text-5xl font-semibold">El mejor <span className="text-6xl block degradedBlue bg-blueLight">
-                            desarrollador
-                        </span>
-                            del mercado</h1>
+                        <h1 className="text-5xl font-semibold">
+                            El mejor
+                            <span className="block break-all degradedBlue bg-blueLight md:text-6xl">
+                                desarrollador
+                            </span>
+                            del pais
+                        </h1>
                     </Reveal>
 
                     <Reveal>
@@ -31,9 +36,9 @@ export default function AboutUs() {
                     </Reveal>
                 </section>
                 <MotionTransition className="flex items-center justify-center">
-                    <Image className="rounded-b-lg h-auto w-72 md:w-full " src="/assets/about.png" width={450} height={450} alt="Junta Directiva" />
+                    <Image className="rounded-b-lg h-auto w-72 md:w-full object-contain" src="/assets/about.png" width={450} height={450} alt="Junta Directiva" />
                 </MotionTransition>
             </section>
-        </section>
+        </div>
     )
 }

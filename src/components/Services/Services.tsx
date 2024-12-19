@@ -13,13 +13,16 @@ export function Services() {
             <section className="grid max-w-5xl mx-auto md:grid-cols-2" id="services">
                 <div>
                     <Reveal>
-                        <h2 className="text-5xl font-semibold">
+                        <h2 className=" text-5xl font-semibold">
                             <span className="block degradedBlue bg-blueLight">
                                 Tu te encargas del negocio
                             </span>
                             y yo de
                             <br />
-                            la tecnología
+                            <span className="break-all">
+
+                                la tecnología
+                            </span>
                         </h2>
                     </Reveal>
 
