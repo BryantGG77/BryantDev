@@ -15,9 +15,11 @@ export function Contact() {
         setClicked(true);
         setIsRedirecting(true);
 
-        // Cambiar el estado después de 3 segundos para redirigir
 
-        window.location.href = "mailto:brayespro@gmail.com?subject=Propuesta de desarrollo&body=¡Hola! Estoy interesado en recibir una propuesta.";
+        setTimeout(() => {
+            window.location.href = "mailto:brayespro@gmail.com?subject=Propuesta de desarrollo&body=¡Hola! Estoy interesado en recibir una propuesta.";
+        }, 1000);
+
 
         setTimeout(() => {
             setIsRedirecting(false);
