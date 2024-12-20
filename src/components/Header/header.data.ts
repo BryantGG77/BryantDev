@@ -16,13 +16,13 @@ export const dataHeader = [
     },
     {
         id: 4,
-        name: 'Contact',
-        idLink: '#contact'
+        name: 'Testimonials',
+        idLink: '#testimonials'
     },
     {
         id: 5,
-        name: 'Testimonials',
-        idLink: '#testimonials'
+        name: 'Contact',
+        idLink: '#contact'
     },
     {
         id: 6,

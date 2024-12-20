@@ -13,9 +13,9 @@ export default function Home() {
       <AboutUs />
       <CounterData />
       <Services />
-      <Contact />
       <Testimonials />
       <PaymentsMethods />
+      <Contact />
     </>
 
 
