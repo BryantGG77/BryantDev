@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { dataFaq } from "./Faq.data";
 import { Reveal } from "../Reveal";
+import { BackgroundRadialRight } from "../BackgroundRadialRight";
 
 export function Faq() {
     // Guarda el ID de la pregunta actualmente abierta
@@ -15,7 +16,8 @@ export function Faq() {
     };
 
     return (
-        <section className="px-6 py-20 md:py-40" id="faq">
+        <section className="relative px-6 py-20 md:py-40" id="faq">
+            <BackgroundRadialRight />
             <section>
                 <section className="grid max-w-5xl gap-36 mx-auto text-center p-6">
                     <div>
