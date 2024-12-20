@@ -3,13 +3,13 @@ import 'swiper/css';
 
 import { dataPaymentMethods } from "./PaymentMethods.data";
 import Image from "next/image";
-import { BackgroundRadialLeft } from '../BackgroundRadialLeft';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Reveal } from '../Reveal';
+import { BackgroundRadialRight } from '../BackgroundRadialRight';
 export function PaymentsMethods() {
     return (
         <div className='relative py-20 md:py-64'>
-            <BackgroundRadialLeft />
+            <BackgroundRadialRight />
             <div className='relative w-full overflow-hidden'>
                 <div className='flex items-center justify-center py-20 p-8 md:py-64'>
                     <Reveal>

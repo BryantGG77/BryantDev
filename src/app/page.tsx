@@ -5,6 +5,7 @@ import { Services } from "@/components/Services";
 import { Contact } from "@/components/Contact";
 import { Testimonials } from "@/components/Testimonials";
 import { PaymentsMethods } from "@/components/PaymentMethods";
+import { Faq } from "@/components/Faq";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Testimonials />
       <PaymentsMethods />
       <Contact />
+      <Faq />
     </>
 
 

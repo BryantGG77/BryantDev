@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Reveal } from "../Reveal";
 import Image from "next/image";
 import { MotionTransition } from "../MotionTransition";
-import { BackgroundRadialRight } from "../BackgroundRadialRight";
+import { BackgroundRadialLeft } from "../BackgroundRadialLeft";
 
 export function Contact() {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -28,7 +28,7 @@ export function Contact() {
 
     return (
         <section className="relative px-6 py-20 md:py-64" id="contact">
-            <BackgroundRadialRight />
+            <BackgroundRadialLeft />
             <section className="grid max-w-5xl mx-auto md:grid-cols-2">
                 <MotionTransition className="flex items-center justify-center">
                     <Image
