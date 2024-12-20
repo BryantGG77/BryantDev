@@ -35,6 +35,8 @@ body {
   animation: swipe 5000ms linear infinite backwards;
 }
 
+
+
 @keyframes swipe {
   0% {
     transform: translate(0);

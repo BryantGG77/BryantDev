@@ -6,6 +6,7 @@ import { Contact } from "@/components/Contact";
 import { Testimonials } from "@/components/Testimonials";
 import { PaymentsMethods } from "@/components/PaymentMethods";
 import { Faq } from "@/components/Faq";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,9 +19,8 @@ export default function Home() {
       <PaymentsMethods />
       <Contact />
       <Faq />
+      <Footer />
     </>
-
-
   );
 }
 
