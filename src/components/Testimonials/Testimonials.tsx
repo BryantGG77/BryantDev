@@ -16,7 +16,7 @@ export function Testimonials() {
                 <Reveal>
                     <div className="self-center">
                         <p className="text-primaryDark">
-                            Todo lo que necesitas saber para tener un sitio web profesionaly promocionarte por todo el mundo.
+                            Todo lo que necesitas saber para tener un sitio web profesional y promocionarte por todo el mundo.
                         </p>
                     </div>
                 </Reveal>

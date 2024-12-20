@@ -24,7 +24,7 @@ export function Slide() {
                 clickable: true
             }}
             modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-            className="h-[250px] w-full md:max-w-5xl"
+            className="h-[325px] w-full md:max-w-5xl"
         >
             {dataTestimonials.map(({ id, name, work, testimonial, image }) => (
                 <SwiperSlide key={id} className="my-5 cursor-pointer md:px-10">
@@ -33,7 +33,7 @@ export function Slide() {
                         <div className="my-5">
                             {testimonial}
                         </div>
-                        <div className="flex">
+                        <div className="flex items-center justify-center">
                             <Image src={image} alt={name} width="50" height={50} className="mr-5" />
                             <div>
                                 <h4 className="text-center">{name}</h4>

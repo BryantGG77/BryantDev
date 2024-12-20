@@ -6,6 +6,7 @@ import { RiMenu3Line } from 'react-icons/ri';
 import { dataHeader } from './header.data';
 import { useState } from 'react';
 import { MotionTransition } from '../MotionTransition/MotionTransition';
+import { Reveal } from '../Reveal';
 export function Header() {
 
     const [OpenMobileMenu, setOpenMobileMenu] = useState(false);
@@ -22,9 +23,11 @@ export function Header() {
                 <div className={`${OpenMobileMenu ? 'block' : 'hidden'} w-full md:block md:w-auto`}>
                     <div className='flex flex-col mt-4 p-4 md:flex-row md:space-x-6 md:p-0 md:mt-0 md: border-0'>
                         {dataHeader.map(({ id, name, idLink }) => (
-                            <div key={id} className='px-2 trasition-all duration-500 ease-in-out'>
-                                <Link href={idLink} className='text-lg hover:text-primary'>{name}</Link>
-                            </div>
+                            <Reveal key={id}>
+                                <div className='p-2 trasition-all duration-500 ease-in-out'>
+                                    <Link href={idLink} className='text-lg hover:text-primary'>{name}</Link>
+                                </div>
+                            </Reveal>
                         ))}
                     </div>
                 </div>

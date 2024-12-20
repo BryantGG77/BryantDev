@@ -4,6 +4,7 @@ import { CounterData } from "@/components/CounterData";
 import { Services } from "@/components/Services";
 import { Contact } from "@/components/Contact";
 import { Testimonials } from "@/components/Testimonials";
+import { PaymentsMethods } from "@/components/PaymentMethods";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Contact />
       <Testimonials />
+      <PaymentsMethods />
     </>
 
 
