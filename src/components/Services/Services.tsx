@@ -13,7 +13,7 @@ export function Services() {
             <section className="grid max-w-5xl mx-auto md:grid-cols-2" >
                 <section className="max-sm:flex max-sm: flex-col max-sm: justify-center ">
                     <Reveal>
-                        <h2 className=" text-5xl font-semibold py-3">
+                        <h2 className=" text-5xl font-semibold py-3 max-sm:text-4xl">
                             <span className="block degradedBlue bg-blueLight">
                                 Tu te encargas del negocio
                             </span>

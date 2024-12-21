@@ -14,7 +14,7 @@ export default function AboutUs() {
                 <section className="max-sm:flex max-sm: flex-col max-sm: justify-center">
 
                     <Reveal>
-                        <h1 className="text-5xl font-semibold">
+                        <h1 className="text-5xl font-semibold max-sm:text-4xl">
                             El mejor
                             <span className="block break-all-sm degradedBlue bg-blueLight lg:text-7xl">
                                 desarrollador

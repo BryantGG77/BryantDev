@@ -13,7 +13,7 @@ export function PaymentsMethods() {
             <div className='relative w-full overflow-hidden'>
                 <div className='flex items-center justify-center py-20 p-8 md:py-64'>
                     <Reveal>
-                        <h2 className="text-5xl pb-5 font-semibold break-all-sm degradedBlue bg-blueLight">
+                        <h2 className="text-5xl pb-5 font-semibold break-all-sm degradedBlue bg-blueLight max-sm:text-4xl">
                             Metodos de pago
                         </h2>
                     </Reveal>
