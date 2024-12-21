@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const poppinsFont = Poppins({ weight: ['400', '600', '700'], subsets: ['latin'] })
 
@@ -16,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <Head>
+        <link rel="icon" href="/icon.png" />
+      </Head>
       <body
         className={`${poppinsFont.className}`}
       >
