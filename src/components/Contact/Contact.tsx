@@ -40,7 +40,7 @@ export function Contact() {
                     />
                 </MotionTransition>
 
-                <section className="max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center max-sm:text-center max-md:order-first">
+                <section className="max-sm:flex max-sm:flex-col max-sm:justify-center max-md:order-first">
                     <Reveal>
                         <h2 className="text-5xl font-semibold py-3">
                             ¡Contacta y camina hacia el

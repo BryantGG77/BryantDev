@@ -19,7 +19,7 @@ export function Faq() {
         <section className="relative px-6 py-20 md:py-40" id="faq">
             <BackgroundRadialRight />
             <section>
-                <section className="grid max-w-5xl gap-36 mx-auto text-center p-6">
+                <section className="grid max-w-5xl gap-36 mx-auto p-6 max-sm:gap-24">
                     <div>
                         <h2 className="text-4xl font-semibold pb-5 md:text-5xl">
                             Preguntas frecuentes

@@ -11,7 +11,7 @@ export function Services() {
         <section className="relative px-6 py-20 md:py-64" id="services">
             <BackgroundRadialLeft />
             <section className="grid max-w-5xl mx-auto md:grid-cols-2" >
-                <section className="max-sm:flex max-sm: flex-col max-sm: justify-center max-sm: items-center max-sm:text-center">
+                <section className="max-sm:flex max-sm: flex-col max-sm: justify-center ">
                     <Reveal>
                         <h2 className=" text-5xl font-semibold py-3">
                             <span className="block degradedBlue bg-blueLight">
