@@ -20,7 +20,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/tu-repositorio.git
+   git clone https://github.com/BryantGG77/BryantDev.git
    ```
 2. Navega al directorio del proyecto:
 ```bash
